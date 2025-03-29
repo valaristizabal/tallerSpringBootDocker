@@ -1,4 +1,4 @@
-FROM eclipse-termurin:17-jdk-focal
+FROM eclipse-temurin:17-jdk-focal
 WORKDIR /app
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
